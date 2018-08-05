@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="TnTToggle">
+    <output-path>$USER_HOME$/Documents/Plugins/plugins</output-path>
+    <root id="archive" name="TnTToggle.jar">
+      <element id="module-output" name="TnTToggle" />
+      <element id="file-copy" path="$PROJECT_DIR$/config.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+    </root>
+  </artifact>
+</component>

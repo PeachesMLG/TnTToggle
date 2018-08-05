@@ -1,0 +1,9 @@
+name: TnTToggle
+version: 1.1
+main: com.peaches.TnT.Main
+author: Peaches_MLG
+depend: [ProtocolLib]
+commands:
+  tnttoggle:
+    aliases: [tnt]
+    description: tnttoggle command
