@@ -128,4 +128,13 @@ public class Main extends JavaPlugin implements Listener {
         item.setItemMeta(m);
         return item;
     }
+
+    public static ItemStack makeItem(Material material, int amount, int type, String name, ArrayList<String> lore) {
+        ItemStack item = new ItemStack(material, amount, (short) type);
+        ItemMeta m = item.getItemMeta();
+        m.setDisplayName(ChatColor.translateAlternateColorCodes('&', name));
+        m.setLore(lore);
+        item.setItemMeta(m);
+        return item;
+    }
 }
